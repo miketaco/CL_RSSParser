@@ -45,6 +45,7 @@ You then call the search functionality. This seperate operation will allow you t
 After you trigger the search request you can call the	getSearchResults method to retrieve the latest results.
 Again a return code will determine if the response was sucessfully processed.
 Simply iterate the results and use the getter methods to access the results.
+The below code snippet will print the return results out to the console.
 
 		// after you perform the search check the result code		
 		if(searchResult == ForSaleSearchResultGen.SUCCESS) {
